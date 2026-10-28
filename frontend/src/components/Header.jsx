@@ -8,12 +8,11 @@ function Header() {
     <div className="h-[3.50rem] flex flex-row items-center justify-evenly  w-full bg-[#0E3E2D]">
       <img src={logoIcon} alt="logo-image" />
       <h2 className="text-white text-xl">Fruit & Vegetable Market</h2>
-      <label for="inputBox">
+      <label>
         <div className="bg-white cursor-pointer flex flex-row justify-evenly items-center  h-[2rem] rounded-xl w-[28rem]">
           <img src={searchIcon} alt="searchIcon" className="h-[1.50rem]" />
           <input
-            className="w-[24rem]"
-            id="inputBox"
+            className="w-[24rem] pl-2 text-lg"
             placeholder="Search fruits, vegetables..."
             name="search"
           />
