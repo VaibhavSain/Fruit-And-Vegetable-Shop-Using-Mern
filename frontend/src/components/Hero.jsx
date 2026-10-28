@@ -3,7 +3,7 @@ import fruitImage from "../images/hero-produce-image.png";
 import vectorImage from "../images/Vector.png";
 function Hero() {
   return (
-    <div className="bg-[#edf5e6] relative pl-10 pr-10 flex flex-row items-center rounded-xl justify-between mt-[1.50rem] h-[10rem] w-[96%]">
+    <div className="bg-[#edf5e6] border relative pl-10 pr-10 flex flex-row items-center rounded-xl justify-between mt-[1.50rem] h-[10rem] w-[96%]">
       <div className="flex flex-col gap-2 text-left">
         <p className="text-lg text-[#19873f] font-medium">FRESH & HEALTHY</p>
         <h2 className="text-4xl font-medium text-[#0b372c]">
