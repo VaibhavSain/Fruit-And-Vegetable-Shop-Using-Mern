@@ -8,7 +8,7 @@ function Filter() {
         <p className="text-left">Sort by</p>
         <select className="h-[2.50rem] bg-[#ffffff] border mt-1 rounded-lg pl-4 pr-4 w-[14rem]">
           <option>Price: Low to High</option>
-          <option>india</option>
+          <option>Price: High to Low</option>
         </select>
       </label>
       <label>
