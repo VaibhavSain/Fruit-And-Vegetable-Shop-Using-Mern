@@ -1,19 +1,22 @@
 import React from "react";
 import cartIcon from "../images/cart-icon.png";
 
-function Card() {
+function Card({ ind },key) {
   return (
-    <div className="bg-[#fefefe] border items-center justify-evenly  flex flex-col  rounded-xl h-[19rem] w-[15rem]">
+    <div
+      key={key}
+      className="bg-[#fefefe] relative pl-2 border items-start justify-evenly  flex flex-col  rounded-xl h-[19rem] w-[15rem]"
+    >
       <img
-        className="h-[10rem] w-[90%]  border border-red-700"
-        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRl92YVHSnI2rZ0HyfKTpGA6A_0tv615EpbxqWWbfQaZw&s=10"
+        className="h-[10rem] rounded-lg w-[96%]  border"
+        src={ind.imageUrl}
         alt="image"
       />
-      <div className="text-left relative left-[-3rem]">
-        <p className="font-medium text-lg">Apple</p>
-        <p className="text-[rgba(0,0,0,0.4)] text-sm">Fresh and Crispy</p>
+      <div className="text-left">
+        <p className="font-medium text-lg">{ind.name}</p>
+        <p className="text-[rgba(0,0,0,0.4)] text-sm">{ind.detail}</p>
         <p className="text-2xl ">
-          <span className="font-medium text-[#285b4a]"> 150</span>
+          <span className="font-medium text-[#285b4a]"> {ind.price}</span>
           <span className="text-[rgba(0,0,0,0.5)] text-sm">/kg</span>
         </p>
       </div>
