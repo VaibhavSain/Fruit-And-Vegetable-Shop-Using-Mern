@@ -1,7 +1,7 @@
 import React from "react";
 import cartIcon from "../images/cart-icon.png";
 
-function Card({ ind },key) {
+function Card({ ind }, key) {
   return (
     <div
       key={key}
