@@ -10,7 +10,7 @@ function Card({ ind }, key) {
       <img
         className="h-[10rem] rounded-lg w-[96%]  border"
         src={ind.imageUrl}
-        alt="image"
+        alt="products"
       />
       <div className="text-left">
         <p className="font-medium text-lg">{ind.name}</p>
