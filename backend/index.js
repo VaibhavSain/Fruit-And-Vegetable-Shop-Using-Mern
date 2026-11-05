@@ -5,7 +5,6 @@ require("dotenv").config();
 //express
 const app = express();
 
-
 app.use("/api/products", productRoutes);
 
 //middlware 
